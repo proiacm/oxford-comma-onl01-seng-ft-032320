@@ -1,6 +1,6 @@
 def oxford_comma(array)
   
-  if array.index [0..2]
+  if array.find.with.index [0..2]
     array.join
   else 
       
