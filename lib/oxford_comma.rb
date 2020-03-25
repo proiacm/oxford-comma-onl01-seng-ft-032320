@@ -1,6 +1,6 @@
 def oxford_comma(array)
   
-  if array.index [0..2]
+  if array.length <= 2
     array.join
   else 
       
